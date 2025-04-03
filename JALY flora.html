@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>JALY flora</title>
+    <style type="text/css">
+        h1, p, h3 {
+            color: black;
+            text-align:center;
+        }
+        .one{
+            height:300px;
+            width:300px;
+            background: #820202;
+            transition-duration: .5s;
+            transform: rotate(0);
+        }
+        .two{
+            width: 100px;
+            height: 100px;
+            background:grey;
+        }
+        .one:hover{
+            transform: rotate(90deg);
+            transition-duration:1s;
+            background:blue;
+            border-radius: 50%;
+        }
+        .square{
+            width: 90px;
+            height: 90px;
+            margin: 30px auto;
+            background-color: #123456 ;
+            animation-name: spin;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes spin{
+            0%{transform: rotate(0deg);}
+            25%{background-color: yellow;}
+            100%{transform: rotate(360deg);}
+        }
+        transform: scale (0.95);
+        transition:.3s;
+        max-width:35%;
+        inline-img img:hover{
+            transform: scale(1);
+        }
+        .multimedia{
+            overflow:auto;
+        }
+        .mustimedia-video{
+            display: inline-block;
+            float:left;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 33.33%;
+            box-sizing: border-box;
+        }
+        form{
+            padding: 15px 0;
+            float: right;
+        }
+    </style>
+</head> 
+
+<body style="background: lightpink; color: black;">
+    <h1>JALY flora</h1>
+    <p style="font-family:Arial; font-size: 18px">
+        Ми мережа магазин квітів "JALY flora". Тут ви знайдете свіжі квіти, які піднімуть вам настрій.
+    </p>
+    <img width="300" src="https://iscompliantninjasa.blob.core.windows.net/documents/5213064745509316526.jpg" />
+    <br />
+    <h2>Види товарів та послуг:</h2>
+    <ul type="disk">
+        <li>Свіжі квіти</li>
+        <li>Подарункові набори</li>
+        <li>Горшкові рослини</li>
+        <li>Складання букетів</li>
+        <li>Флористичне оформлення</li>
+    </ul>
+    <form action="#">
+        <input type="text" placeholder="Login" required>
+        <input type="password" placeholder="password" required>
+        <input type="submit" value="Sign in">
+    </form>
+    <form action="#" method="post" name="commentf" id="commentf">
+        <p><input type="text" name="author" id="author" value="" size="25"/>
+            Ім'я
+        </p>
+        <p><input type="text" name="email" id="email" value="" size="25"/>
+            Пошта
+        </p>
+        <p><textarea name="comment" id="comment" cols="48" rows="8"></textarea>
+        </p>
+        <p><input name="submit" type="submit" id="submit" value="Надіслати"/>
+        </p>
+    </form>
+    <div class="one">
+        <div class="two"></div>
+    </div>
+    <br />
+    <h3>Види коробок для подарункових боксів:</h3>
+    <table>
+        <tr>
+            <th>Форма</th>
+            <th>Розмір</th>
+            <th>Колір</th>
+        </tr>
+        <tr>
+            <td>Кругла</td>
+            <td>d=30см d=50см</td>
+            <td>Чорний, білий, червоний, рожевий</td>
+        </tr>
+        <tr>
+            <td>Прямокутна</td>
+            <td>30x40 50x60</td>
+            <td>Чорний, білий, блакитний, червоний, рожевий</td>
+        </tr>
+    </table>
+    <br />
+    <div class="multimedia">
+    <div class="multimedia-video">
+        <video controls>
+            <source scr="Квіточки.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+    <a href="https://www.u-f-l.net/ua/flowers/vidy-tsvetov?srsltid=AfmBOoqGSdZ1pbdAFSPvfXAdw7BKlNJd6r4MFQPbAqEil0_qnsoRZRvN">
+        Тут ви зможете прочитати інформацію про різні квіти</a>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8e2500c28d740b66","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"88f29145735e4e2d86043ea4d6a63e1e"}' crossorigin="anonymous"></script>
+</body>
+</html>
